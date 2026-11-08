@@ -1,0 +1,5 @@
+opstelling,segmenten_instap_min,segmenten_instap_max,segmenten_middensegment_min,segmenten_middensegment_max,segmenten_premium_min,segmenten_premium_max,segmenten_premium_openBovengrens
+Rechte keuken,5000,7000,7000,12000,12000,20000,
+Hoekkeuken,7000,9000,9000,16000,16000,25000,
+Parallelkeuken,7000,9000,9000,15000,15000,25000,
+Eilandkeuken,9000,15000,15000,25000,25000,60000,True

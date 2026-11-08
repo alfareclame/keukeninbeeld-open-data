@@ -1,0 +1,356 @@
+{
+  "naam": "Keuken-garantie-index Nederland",
+  "editie": 2026,
+  "beschrijving": "Gepubliceerde garantietermijnen van keukenmerken (meubelen, werkbladen, scharnieren, apparatuur, montage waar het merk die noemt) en de regels die gelden volgens de wet en de CBW-erkend voorwaarden, met per cijfer de bron-URL en een letterlijk citaat. Samengesteld door Keuken in Beeld; geen verkoopdata.",
+  "bron": "Keuken in Beeld",
+  "bronUrl": "https://keukeninbeeld.nl/keuken-garantie-index",
+  "uitgever": {
+    "naam": "Keuken in Beeld",
+    "onderdeelVan": "Aanloop AI",
+    "kvk": "88606902"
+  },
+  "licentie": "https://creativecommons.org/licenses/by/4.0/",
+  "citatie": "Keuken-garantie-index Nederland 2026, Keuken in Beeld (keukeninbeeld.nl)",
+  "bijgewerkt": "2026-10-09",
+  "taal": "nl-NL",
+  "land": "NL",
+  "grondslag": "Garantietermijnen zijn wat merken en fabrikanten zelf publiceren, naast de wettelijke basis; ze zijn geen beoordeling van kwaliteit. De garantie op uw eigen keuken staat in uw koopovereenkomst.",
+  "aantalDatapunten": 14,
+  "datapunten": [
+    {
+      "id": "bruynzeel-garantie",
+      "categorie": "merk",
+      "merk": "Bruynzeel",
+      "onderwerp": "Fabrieksgarantie op het keukenassortiment",
+      "waarde": {
+        "min": 10,
+        "max": 10
+      },
+      "eenheid": "jaar",
+      "tekst": "10 jaar fabrieksgarantie",
+      "opmerking": "Werkbladen, apparatuur en accessoires vallen volgens de garantiebepalingen van Bruynzeel onder de garantievoorwaarden van de leverancier.",
+      "bevestiging": [
+        {
+          "url": "https://www.bruynzeelkeukens.nl/sites/default/files/inline-files/Garantiebepalingen.pdf",
+          "citaat": "Na verloop van 10 jaar na de afleverdatum vervalt de productgarantie.",
+          "gelezen": "2026-10-09"
+        }
+      ],
+      "bron": {
+        "url": "https://webwinkel.bruynzeelkeukens.nl/garantie",
+        "citaat": "10 jaar fabrieksgarantie, met uitzondering van outletartikelen tenzij anders vermeld.",
+        "gelezen": "2026-10-09"
+      }
+    },
+    {
+      "id": "bribus-garantie",
+      "categorie": "merk",
+      "merk": "Bribus",
+      "onderwerp": "Garantie op keukenonderdelen",
+      "waarde": {
+        "min": 10,
+        "max": 10
+      },
+      "eenheid": "jaar",
+      "tekst": "10 jaar op keukenonderdelen",
+      "bron": {
+        "url": "https://www.bribus.nl/over-bribus/nieuws/minder-leegstand-meer-rendement-gestroomlijnde-keukeninstallatie",
+        "citaat": "Bribus biedt tien jaar garantie op keukenonderdelen, waardoor langdurige zekerheid gewaarborgd is.",
+        "gelezen": "2026-10-09"
+      }
+    },
+    {
+      "id": "keller-garantie",
+      "categorie": "merk",
+      "merk": "Keller",
+      "onderwerp": "Garantie op kasten (webwinkel)",
+      "waarde": {
+        "min": 10,
+        "max": 10
+      },
+      "eenheid": "jaar",
+      "tekst": "10 jaar op kasten",
+      "opmerking": "Betreft de webwinkel voor kasten, niet een complete keuken via een dealer.",
+      "bron": {
+        "url": "https://webwinkel.kellerkeukens.nl/veel-gestelde-vragen",
+        "citaat": "Op onze kasten geven wij 10 jaar garantie.",
+        "gelezen": "2026-10-09"
+      }
+    },
+    {
+      "id": "kvik-garantie-elementen",
+      "categorie": "merk",
+      "merk": "Kvik",
+      "onderwerp": "Garantie op deuren en keukenelementen",
+      "waarde": {
+        "min": 10,
+        "max": 10
+      },
+      "eenheid": "jaar",
+      "tekst": "10 jaar op deuren en keukenelementen",
+      "bron": {
+        "url": "https://www.kvik.nl/over-kvik/waarom-kvik/garantie",
+        "citaat": "Al onze deuren, keuken- en badelementen, dressings en schuifdeuren vallen onder een garantie van 10 jaar.",
+        "gelezen": "2026-10-09"
+      }
+    },
+    {
+      "id": "kvik-garantie-werkblad",
+      "categorie": "onderdeel",
+      "merk": "Kvik",
+      "onderwerp": "Garantie op werkbladen",
+      "waarde": {
+        "min": 5,
+        "max": 5
+      },
+      "eenheid": "jaar",
+      "tekst": "5 jaar op werkbladen",
+      "bron": {
+        "url": "https://www.kvik.nl/over-kvik/waarom-kvik/garantie",
+        "citaat": "Werkbladen hebben heel wat te verduren. De onze zijn ervoor gebouwd: en dat ondersteunen we met een garantie van 5 jaar.",
+        "gelezen": "2026-10-09"
+      }
+    },
+    {
+      "id": "kvik-garantie-scharnieren",
+      "categorie": "onderdeel",
+      "merk": "Kvik",
+      "onderwerp": "Garantie op scharnieren en ladegeleiders",
+      "waarde": {
+        "min": 35,
+        "max": 35
+      },
+      "eenheid": "jaar",
+      "tekst": "35 jaar op scharnieren en ladegeleiders",
+      "bron": {
+        "url": "https://www.kvik.nl/over-kvik/waarom-kvik/garantie",
+        "citaat": "Scharnieren en ladegeleiders, 35 jaar garantie.",
+        "gelezen": "2026-10-09"
+      }
+    },
+    {
+      "id": "ikea-garantie-metod",
+      "categorie": "merk",
+      "merk": "IKEA",
+      "onderwerp": "Garantie op het METOD keukensysteem",
+      "waarde": {
+        "min": 25,
+        "max": 25
+      },
+      "eenheid": "jaar",
+      "tekst": "25 jaar (METOD)",
+      "bevestiging": [
+        {
+          "url": "https://www.ikea.com/nl/nl/customer-service/knowledge/articles/5fefb6aa-dd36-4465-ab7a-38275b4f77ec.html",
+          "citaat": "Bij de aankoop van een METOD keuken ontvang je een gratis garantie van 25 jaar.",
+          "gelezen": "2026-10-09"
+        }
+      ],
+      "bron": {
+        "url": "https://www.ikea.com/nl/nl/customer-service/returns-claims/guarantee/",
+        "citaat": "Wij geven 25 jaar garantie op ons METOD keukensysteem en 10 jaar garantie op ons ENHET systeem.",
+        "gelezen": "2026-10-09"
+      }
+    },
+    {
+      "id": "ikea-garantie-enhet",
+      "categorie": "merk",
+      "merk": "IKEA",
+      "onderwerp": "Garantie op het ENHET keukensysteem",
+      "waarde": {
+        "min": 10,
+        "max": 10
+      },
+      "eenheid": "jaar",
+      "tekst": "10 jaar (ENHET)",
+      "bevestiging": [
+        {
+          "url": "https://www.ikea.com/nl/nl/customer-service/knowledge/articles/5fefb6aa-dd36-4465-ab7a-38275b4f77ec.html",
+          "citaat": "Voor ENHET keukens bieden wij een garantie van 10 jaar.",
+          "gelezen": "2026-10-09"
+        }
+      ],
+      "bron": {
+        "url": "https://www.ikea.com/nl/nl/customer-service/returns-claims/guarantee/",
+        "citaat": "Wij geven 25 jaar garantie op ons METOD keukensysteem en 10 jaar garantie op ons ENHET systeem.",
+        "gelezen": "2026-10-09"
+      }
+    },
+    {
+      "id": "ikea-garantie-apparatuur",
+      "categorie": "onderdeel",
+      "merk": "IKEA",
+      "onderwerp": "Garantie op keukenapparatuur",
+      "waarde": {
+        "min": 5,
+        "max": 5
+      },
+      "eenheid": "jaar",
+      "tekst": "5 jaar op keukenapparatuur",
+      "opmerking": "Voor TILLREDA en LAGAN inbouwapparatuur noemt de bron 2 jaar.",
+      "bron": {
+        "url": "https://www.ikea.com/nl/nl/customer-service/returns-claims/guarantee/",
+        "citaat": "Bij IKEA heb je standaard 5 jaar garantie op keukenapparatuur.",
+        "gelezen": "2026-10-09"
+      }
+    },
+    {
+      "id": "ikea-garantie-montage",
+      "categorie": "onderdeel",
+      "merk": "IKEA",
+      "onderwerp": "Garantie op montage METOD via de montageservice",
+      "waarde": {
+        "min": 5,
+        "max": 5
+      },
+      "eenheid": "jaar",
+      "tekst": "5 jaar op montage (METOD)",
+      "bron": {
+        "url": "https://www.ikea.com/nl/nl/customer-service/returns-claims/guarantee/",
+        "citaat": "We bieden 5 jaar garantie op montage van het METOD keukensysteem met onze keukenmontageservice.",
+        "gelezen": "2026-10-09"
+      }
+    },
+    {
+      "id": "nolte-garantie",
+      "categorie": "merk",
+      "merk": "Nolte",
+      "onderwerp": "Garantie op keukenmeubelen",
+      "waarde": {
+        "min": 5,
+        "max": 5
+      },
+      "eenheid": "jaar",
+      "tekst": "5 jaar op keukenmeubelen",
+      "bron": {
+        "url": "https://www.nolte-kuechen.com/de-DE/privatkunden/ueber-nolte/unternehmen/warum-nolte",
+        "citaat": "Deshalb gewährt nolte Küchen 5 Jahre Garantie auf Küchenmöbel.",
+        "gelezen": "2026-10-09"
+      }
+    },
+    {
+      "id": "pronorm-garantie",
+      "categorie": "merk",
+      "merk": "Pronorm",
+      "onderwerp": "Fabrikantsgarantie op de keuken",
+      "waarde": {
+        "min": 5,
+        "max": 5
+      },
+      "eenheid": "jaar",
+      "tekst": "5 jaar (fabrikantsgarantie)",
+      "bron": {
+        "url": "https://www.pronorm.de/benefits/?lang=cy",
+        "citaat": "Our kitchens are sustainable and durable, which is emphasised with a manufacturer's guarantee of 5 years.",
+        "gelezen": "2026-10-09"
+      }
+    },
+    {
+      "id": "cbw-garantie",
+      "categorie": "regel",
+      "merk": "CBW-erkend",
+      "onderwerp": "Garantie op geleverde producten volgens de CBW-erkend voorwaarden",
+      "waarde": {
+        "min": 2,
+        "max": 2
+      },
+      "eenheid": "jaar",
+      "tekst": "2 jaar volledige garantie",
+      "opmerking": "Artikel 15 (conformiteit en garantie) van de voorwaarden voor woonwinkels; partijen kunnen schriftelijk een langere periode afspreken. Geldt alleen bij een CBW-erkende ondernemer.",
+      "bron": {
+        "url": "https://cbw-erkend.nl/wp-content/uploads/2026/06/av2022_wonen.pdf",
+        "citaat": "De ondernemer geeft 2 jaar volledige garantie op de geleverde producten, boven op de wettelijke verplichtingen van lid 1.",
+        "gelezen": "2026-10-13"
+      }
+    },
+    {
+      "id": "wettelijke-garantie-nl",
+      "categorie": "regel",
+      "merk": "Wet",
+      "onderwerp": "Wettelijke garantie bij consumentenkoop",
+      "waarde": {
+        "waarde": null
+      },
+      "eenheid": "jaar",
+      "tekst": "geen vaste wettelijke garantietermijn",
+      "bevestiging": [
+        {
+          "url": "https://consument.acm.nl/garantie-reparatie-geld-terug/garantie",
+          "citaat": "Wettelijke garantie heeft in Nederland geen vaste termijn.",
+          "gelezen": "2026-10-09"
+        }
+      ],
+      "opmerking": "Hoe lang u recht heeft op een oplossing hangt af van hoe lang u mag verwachten dat het product meegaat.",
+      "bron": {
+        "url": "https://www.rijksoverheid.nl/onderwerpen/bescherming-van-consumenten/vraag-en-antwoord/welke-garanties-heb-ik-op-een-product",
+        "citaat": "Er is geen wettelijke garantietermijn in Nederland.",
+        "gelezen": "2026-10-09"
+      }
+    }
+  ],
+  "nietGepubliceerd": [
+    {
+      "merk": "Nobilia",
+      "toelichting": "De fabrikant noemt op zijn veelgestelde vragen geen garantietermijn en verwijst naar de verkooppartner en de individuele overeenkomst.",
+      "bron": {
+        "url": "https://www.nobilia.de/en/services/faq/",
+        "citaat": "Your specialist dealer is your direct contact for enquiries regarding complaints or warranty services. All relevant information on these topics can be found in your individual contract with your specialist dealer.",
+        "gelezen": "2026-10-09"
+      }
+    },
+    {
+      "merk": "Schüller",
+      "toelichting": "De fabrikant noemt op zijn veelgestelde vragen geen garantietermijn en verwijst naar de vakhandelaar.",
+      "bron": {
+        "url": "https://www.schueller.de/de/faq",
+        "citaat": "Informationen zu Garantieansprüchen auf Ihre Küche erhalten Sie immer bei Ihrem Fachhändler.",
+        "gelezen": "2026-10-09"
+      }
+    },
+    {
+      "merk": "next125",
+      "toelichting": "De fabrikant noemt geen garantietermijn en verwijst voor garantie naar de verkooppartner.",
+      "bron": {
+        "url": "https://www.next125.com/de/kontakt-und-faqs",
+        "citaat": "Gerne können Sie sich bei Fragen zu Gewährleistung und Garantie an Ihren Händler wenden.",
+        "gelezen": "2026-10-09"
+      }
+    },
+    {
+      "merk": "Bauformat",
+      "toelichting": "De fabrikant noemt op zijn veelgestelde vragen geen garantietermijn; garantie staat in het contract met de vakhandelaar.",
+      "bron": {
+        "url": "https://www.bauformat.de/service/faqs-1",
+        "citaat": "Alle Informationen zu Ihren Reklamations- und Garantieleistungen finden Sie in dem mit Ihrem Fachhändler vereinbarten Vertrag",
+        "gelezen": "2026-10-09"
+      }
+    },
+    {
+      "merk": "Häcker",
+      "toelichting": "Op de gelezen pagina's van de fabrikant staat geen garantietermijn in jaren.",
+      "bron": {
+        "url": "https://www.haecker-kuechen.com/en/systemat",
+        "citaat": "Häcker, with its guarantee, contributes to a more sustainable future",
+        "gelezen": "2026-10-09"
+      }
+    },
+    {
+      "merk": "Leicht",
+      "toelichting": "Voor keukenmeubelen vonden wij geen termijn. De enige termijn staat op de Oostenrijkse servicepagina van de distributeur en betreft inbouwapparatuur; niet opgenomen.",
+      "bron": {
+        "url": "https://www.kuechenleicht.at/ueber-uns/service/",
+        "citaat": "5 Jahre Garantie auf fast alle Einbaugeräte",
+        "gelezen": "2026-10-09"
+      }
+    },
+    {
+      "merk": "bulthaup",
+      "toelichting": "Het cijfer (5 jaar) staat alleen op de pagina van een verkooppartner van bulthaup, niet op een garantiepagina van het merk zelf; daarom niet opgenomen.",
+      "bron": {
+        "url": "https://bulthaup.com/de/partner/capellen/bulthaup-espace-luxembourg/",
+        "citaat": "Auf alle Produkte der bulthaup GmbH & Co KG gewähren wir standardmäßig eine 5-jährige Herstellergarantie.",
+        "gelezen": "2026-10-09"
+      }
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "naam": "Keuken-levertijdindex Nederland",
+  "editie": 2026,
+  "beschrijving": "Gepubliceerde levertijden van keukenmerken en de fasen van een keukentraject (inmeten, productie, levering, montage), met per cijfer de bron-URL en een letterlijk citaat. Samengesteld door Keuken in Beeld; geen verkoopdata.",
+  "bron": "Keuken in Beeld",
+  "bronUrl": "https://keukeninbeeld.nl/keuken-levertijd-index",
+  "uitgever": {
+    "naam": "Keuken in Beeld",
+    "onderdeelVan": "Aanloop AI",
+    "kvk": "88606902"
+  },
+  "licentie": "https://creativecommons.org/licenses/by/4.0/",
+  "citatie": "Keuken-levertijdindex Nederland 2026, Keuken in Beeld (keukeninbeeld.nl)",
+  "bijgewerkt": "2026-10-07",
+  "taal": "nl-NL",
+  "land": "NL",
+  "grondslag": "Levertijden zijn gepubliceerde richtwaarden van fabrikanten, merken en branchevoorwaarden; ze zijn geen garantie en geen verkoopdata. De levertijd van uw eigen keuken staat in uw offerte.",
+  "aantalDatapunten": 13,
+  "datapunten": [
+    {
+      "id": "bruynzeel-levertijd",
+      "categorie": "merk",
+      "merk": "Bruynzeel",
+      "onderwerp": "Gemiddelde levertijd complete keuken",
+      "waarde": {
+        "min": 5,
+        "max": 15
+      },
+      "eenheid": "weken",
+      "tekst": "5 tot 15 weken",
+      "bron": {
+        "url": "https://www.bruynzeelkeukens.nl/meest-gestelde-vragen",
+        "citaat": "De gemiddelde levertijd van een keuken van Bruynzeel Keukens is 5 tot 15 weken.",
+        "gelezen": "2026-10-07"
+      }
+    },
+    {
+      "id": "bribus-levertijd",
+      "categorie": "merk",
+      "merk": "Bribus",
+      "onderwerp": "Snelste levertijd complete keuken",
+      "waarde": {
+        "min": 4,
+        "max": null
+      },
+      "eenheid": "weken",
+      "tekst": "vanaf 4 weken",
+      "bron": {
+        "url": "https://www.bribus.nl/footer/levertijd-keuken",
+        "citaat": "Bij Bribus kunnen we keukens al vanaf 4 weken leveren.",
+        "gelezen": "2026-10-07"
+      }
+    },
+    {
+      "id": "kvik-levertijd",
+      "categorie": "merk",
+      "merk": "Kvik",
+      "onderwerp": "Uitgangspunt levertijd keuken (excl. werkblad op maat)",
+      "waarde": {
+        "min": null,
+        "max": 14
+      },
+      "eenheid": "dagen",
+      "tekst": "binnen 14 dagen",
+      "bron": {
+        "url": "https://www.kvik.nl/over-kvik/levering-en-installatie",
+        "citaat": "Als uitgangspunt leveren wij alle keukens binnen 14 dagen na het plaatsen van je bestelling.",
+        "gelezen": "2026-10-07"
+      }
+    },
+    {
+      "id": "kvik-werkblad-maat",
+      "categorie": "onderdeel",
+      "merk": "Kvik",
+      "onderwerp": "Werkblad op maat",
+      "waarde": {
+        "min": 4,
+        "max": 6
+      },
+      "eenheid": "weken",
+      "tekst": "4 tot 6 weken",
+      "bron": {
+        "url": "https://www.kvik.nl/over-kvik/levering-en-installatie",
+        "citaat": "De levertijd van op maat gemaakte werkbladen kan 4 tot 6 weken bedragen.",
+        "gelezen": "2026-10-07"
+      }
+    },
+    {
+      "id": "keller-levertijd",
+      "categorie": "merk",
+      "merk": "Keller",
+      "onderwerp": "Kasten uit de webwinkel (productie op bestelling)",
+      "waarde": {
+        "min": 7,
+        "max": 7
+      },
+      "eenheid": "weken",
+      "tekst": "7 weken (bouwvakperiode)",
+      "opmerking": "Betreft de webwinkel voor kasten, niet een complete keuken via een dealer; de bron noemt de bouwvak als reden voor deze termijn.",
+      "bron": {
+        "url": "https://webwinkel.kellerkeukens.nl/veel-gestelde-vragen",
+        "citaat": "Hou bij het plaatsen van de bestelling rekening met een levertijd van 7 weken(i.v.m. bouwvak).",
+        "gelezen": "2026-10-07"
+      }
+    },
+    {
+      "id": "nobilia-ophalen",
+      "categorie": "merk",
+      "merk": "Nobilia",
+      "onderwerp": "Beschikbaarheid meubelen bij zelf ophalen",
+      "waarde": {
+        "min": null,
+        "max": 8
+      },
+      "eenheid": "werkdagen",
+      "tekst": "tot 8 werkdagen (zelf ophalen)",
+      "opmerking": "Betreft de beschikbaarheid van meubelen voor zelf ophalen volgens de fabrikant, niet de levertijd van een compleet keukentraject via een dealer.",
+      "bron": {
+        "url": "https://www.nobilia.de/en/services/faq/",
+        "citaat": "Our furniture is usually available within up to 8 working days for self-collection.",
+        "gelezen": "2026-10-07"
+      }
+    },
+    {
+      "id": "bulthaup-levertijd",
+      "categorie": "merk",
+      "merk": "bulthaup",
+      "onderwerp": "Levertijd na inmeten of goedgekeurd plan",
+      "waarde": {
+        "min": 3,
+        "max": 3
+      },
+      "eenheid": "maanden",
+      "tekst": "3 maanden",
+      "opmerking": "Vermeld op de pagina van een bulthaup-verkooppartner (Duitsland), gehost op bulthaup.com.",
+      "bron": {
+        "url": "https://bulthaup.com/en/partner/frankfurt/bulthaup-berliner-strasse/",
+        "citaat": "After measurement or approved plans we order your individual kitchen with a delivery time of 3 months",
+        "gelezen": "2026-10-07"
+      }
+    },
+    {
+      "id": "bruynzeel-webwinkel",
+      "categorie": "onderdeel",
+      "merk": "Bruynzeel",
+      "onderwerp": "Productieartikelen uit de webwinkel",
+      "waarde": {
+        "min": 3,
+        "max": 3
+      },
+      "eenheid": "weken",
+      "tekst": "gemiddeld 3 weken",
+      "bron": {
+        "url": "https://webwinkel.bruynzeelkeukens.nl/veel-gestelde-vragen",
+        "citaat": "Voor productieartikelen bedraagt de gemiddelde levertijd 3 weken.",
+        "gelezen": "2026-10-07"
+      }
+    },
+    {
+      "id": "bruynzeel-inmeten",
+      "categorie": "fase",
+      "fase": "inmeten",
+      "merk": "Bruynzeel",
+      "onderwerp": "Inmeten na het aankoopgesprek",
+      "waarde": {
+        "min": null,
+        "max": 3
+      },
+      "eenheid": "weken",
+      "tekst": "vaak binnen 3 weken na het aankoopgesprek",
+      "bron": {
+        "url": "https://www.bruynzeelkeukens.nl/meest-gestelde-vragen",
+        "citaat": "vindt het inmeten vaak binnen drie weken na het aankoopgesprek plaats.",
+        "gelezen": "2026-10-07"
+      }
+    },
+    {
+      "id": "bruynzeel-contact-levering",
+      "categorie": "fase",
+      "fase": "levering",
+      "merk": "Bruynzeel",
+      "onderwerp": "Afstemming over de levering voor de afgesproken leverweek",
+      "waarde": {
+        "min": 4,
+        "max": 4
+      },
+      "eenheid": "weken",
+      "tekst": "zo'n 4 weken voor de leverweek",
+      "bron": {
+        "url": "https://www.bruynzeelkeukens.nl/over-ons/proces",
+        "citaat": "Zo'n vier weken voor de afgesproken leverweek nemen we contact met je op",
+        "gelezen": "2026-10-07"
+      }
+    },
+    {
+      "id": "bruynzeel-montage",
+      "categorie": "fase",
+      "fase": "montage",
+      "merk": "Bruynzeel",
+      "onderwerp": "Montage na levering",
+      "waarde": {
+        "min": 2,
+        "max": 2
+      },
+      "eenheid": "mandagen",
+      "tekst": "montage 1 dag na levering, gemiddeld 2 mandagen",
+      "bron": {
+        "url": "https://www.bruynzeelkeukens.nl/over-ons/proces",
+        "citaat": "In de meeste gevallen plannen we de montage van de nieuwe keuken één dag na levering. De montage zelf duurt gemiddeld twee mandagen",
+        "gelezen": "2026-10-07"
+      }
+    },
+    {
+      "id": "cbw-vaste-levertijd",
+      "categorie": "regel",
+      "onderwerp": "Vaste levertijd als er niets is afgesproken (consumentenkoop)",
+      "waarde": {
+        "min": 30,
+        "max": 30
+      },
+      "eenheid": "dagen",
+      "tekst": "30 dagen",
+      "bron": {
+        "url": "https://cbw-erkend.nl/wp-content/uploads/2026/06/av2022_wonen.pdf",
+        "citaat": "Als geen levertijd is afgesproken, dan geldt bij een consumentenkoop een vaste levertijd van 30 dagen.",
+        "gelezen": "2026-10-13"
+      },
+      "bevestiging": [
+        {
+          "url": "https://consumentenbond.nl/juridisch-advies/wonen/overig/keuken-niet-op-tijd-geleverd",
+          "citaat": "Heb je geen levertijd afgesproken, dan geldt een wettelijke levertermijn van 30 dagen.",
+          "gelezen": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": "cbw-extra-termijn",
+      "categorie": "regel",
+      "onderwerp": "Extra termijn bij overschrijding van een vermoedelijke levertijd",
+      "waarde": {
+        "min": null,
+        "max": 1
+      },
+      "eenheid": "maanden",
+      "tekst": "maximaal 1 maand",
+      "bron": {
+        "url": "https://cbw-erkend.nl/wp-content/uploads/2026/06/av2022_wonen.pdf",
+        "citaat": "De extra termijn is maximaal een maand maar nooit langer dan de oorspronkelijke levertijd.",
+        "gelezen": "2026-10-13"
+      }
+    }
+  ],
+  "nietGepubliceerd": [
+    {
+      "merk": "Schüller",
+      "toelichting": "De fabrikant verwijst voor levertijden naar de verkooppartner.",
+      "bron": {
+        "url": "https://www.schueller.de/de/faq",
+        "citaat": "Diese Frage kann am besten von Ihrem Vertragspartner beantwortet werden. Unsere Handelspartner haben alle Informationen zu Lieferzeiten und Anlieferavisierungen und wissen zudem, wann die Ware auch zu Ihnen verbracht werden kann.",
+        "gelezen": "2026-10-07"
+      }
+    },
+    {
+      "segment": "alle keukens",
+      "onderwerp": "Doorgaande levertijd na bestelling",
+      "toelichting": "Bron is een commercieel offerteplatform (geen fabrikant of brancheorganisatie) en toont geen datum; niet opgenomen.",
+      "bron": {
+        "url": "https://www.bobex.be/nl-be/keuken/advies/levertijden/",
+        "citaat": "Een nieuwe keuken ontvang je doorgaans binnen de 3 tot 16 weken na het bestellen.",
+        "gelezen": "2026-10-07"
+      }
+    },
+    {
+      "segment": "kant-en-klaar",
+      "onderwerp": "Levertijd kant-en-klare keuken",
+      "toelichting": "Bron is een commercieel offerteplatform (geen fabrikant of brancheorganisatie) en toont geen datum; niet opgenomen.",
+      "bron": {
+        "url": "https://www.bobex.be/nl-be/keuken/advies/levertijden/",
+        "citaat": "3 tot 8 weken tijd voor een kant-en-klare keuken",
+        "gelezen": "2026-10-07"
+      }
+    },
+    {
+      "segment": "modulekeuken",
+      "onderwerp": "Levertijd modulekeuken",
+      "toelichting": "Bron is een commercieel offerteplatform (geen fabrikant of brancheorganisatie) en toont geen datum; niet opgenomen.",
+      "bron": {
+        "url": "https://www.bobex.be/nl-be/keuken/advies/levertijden/",
+        "citaat": "3 tot 12 weken levertijd voor een modulekeuken",
+        "gelezen": "2026-10-07"
+      }
+    },
+    {
+      "segment": "maatwerk",
+      "onderwerp": "Levertijd maatwerkkeuken",
+      "toelichting": "Bron is een commercieel offerteplatform (geen fabrikant of brancheorganisatie) en toont geen datum; niet opgenomen.",
+      "bron": {
+        "url": "https://www.bobex.be/nl-be/keuken/advies/levertijden/",
+        "citaat": "8 tot 16 weken levertijd voor een maatwerkkeuken",
+        "gelezen": "2026-10-07"
+      }
+    }
+  ]
+}

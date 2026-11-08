@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Als u deze data gebruikt, citeer deze dan met bronvermelding / If you use this data, please cite it."
+title: "Keuken in Beeld open data 2026"
+type: dataset
+authors:
+  - name: "Keuken in Beeld"
+    website: "https://keukeninbeeld.nl/"
+url: "https://keukeninbeeld.nl/"
+license: CC-BY-4.0
+date-released: "2026-11-08"
+version: "2026.11"
+# Let op: keukenzaken-register.json declareert aanvullend "adresgegevens (c) OpenStreetMap-bijdragers (ODbL)".

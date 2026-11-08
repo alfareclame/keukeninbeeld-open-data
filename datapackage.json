@@ -1,0 +1,691 @@
+{
+  "name": "keukeninbeeld-open-data",
+  "title": "Keuken in Beeld open data 2026",
+  "id": "keukeninbeeld-open-data",
+  "version": "2026.11",
+  "created": "2026-11-08",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Keuken in Beeld",
+      "path": "https://keukeninbeeld.nl/",
+      "role": "author"
+    }
+  ],
+  "homepage": "https://keukeninbeeld.nl/",
+  "resources": [
+    {
+      "name": "keukenprijs-index-json",
+      "path": "data/keukenprijs-index.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "title": "Keukenprijs-index Nederland 2026 (origineel JSON)",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "name": "keukenprijs-index-per-opstelling",
+      "path": "data/keukenprijs-index-per-opstelling.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Keukenprijs-index Nederland 2026 - perOpstelling",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "opstelling",
+            "type": "string",
+            "description": "Opstelling van de keuken (bijv. Rechte keuken, Hoekkeuken)."
+          },
+          {
+            "name": "segmenten_instap_min",
+            "type": "integer",
+            "description": "Richtprijs instap-segment, ondergrens (EUR)."
+          },
+          {
+            "name": "segmenten_instap_max",
+            "type": "integer",
+            "description": "Richtprijs instap-segment, bovengrens (EUR)."
+          },
+          {
+            "name": "segmenten_middensegment_min",
+            "type": "integer",
+            "description": "Richtprijs middensegment, ondergrens (EUR)."
+          },
+          {
+            "name": "segmenten_middensegment_max",
+            "type": "integer",
+            "description": "Richtprijs middensegment, bovengrens (EUR)."
+          },
+          {
+            "name": "segmenten_premium_min",
+            "type": "integer",
+            "description": "Richtprijs premium-segment, ondergrens (EUR)."
+          },
+          {
+            "name": "segmenten_premium_max",
+            "type": "integer",
+            "description": "Richtprijs premium-segment, bovengrens (EUR)."
+          },
+          {
+            "name": "segmenten_premium_openBovengrens",
+            "type": "string",
+            "description": "'True' als de bovengrens van premium open is (alleen ingevuld bij 1 rij); anders leeg."
+          }
+        ]
+      }
+    },
+    {
+      "name": "keukenprijs-index-per-merk",
+      "path": "data/keukenprijs-index-per-merk.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Keukenprijs-index Nederland 2026 - perMerk",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "merk",
+            "type": "string",
+            "description": "Merknaam."
+          },
+          {
+            "name": "segment",
+            "type": "string",
+            "description": "Segment van het merk volgens de index."
+          },
+          {
+            "name": "vanaf_min",
+            "type": "integer",
+            "description": "Vanaf-prijs, ondergrens (EUR)."
+          },
+          {
+            "name": "vanaf_max",
+            "type": "integer",
+            "description": "Vanaf-prijs, bovengrens (EUR)."
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "description": "Merkpagina op keukeninbeeld.nl."
+          },
+          {
+            "name": "vanaf_opmerking",
+            "type": "string",
+            "description": "Opmerking bij de vanaf-prijs (1 rij), anders leeg."
+          }
+        ]
+      }
+    },
+    {
+      "name": "aanbetaling-keuken-index-json",
+      "path": "data/aanbetaling-keuken-index.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "title": "Aanbetaling-keukenindex Nederland 2026 (origineel JSON)",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "name": "aanbetaling-keuken-index",
+      "path": "data/aanbetaling-keuken-index.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Aanbetaling-keukenindex Nederland 2026 - datapunten",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stabiele sleutel van het datapunt."
+          },
+          {
+            "name": "categorie",
+            "type": "string",
+            "description": "Soort datapunt zoals in het bronbestand (bijv. merk, norm, regel, afwijking, wet, annulering, betaalmoment, zekerheid, aanbieder; per index verschillend)."
+          },
+          {
+            "name": "onderwerp",
+            "type": "string",
+            "description": "Waar het cijfer over gaat."
+          },
+          {
+            "name": "waarde_min",
+            "type": "integer",
+            "description": "Ondergrens van de waarde (numeriek, eenheid in 'eenheid'); leeg indien geen numerieke waarde."
+          },
+          {
+            "name": "waarde_max",
+            "type": "integer",
+            "description": "Bovengrens van de waarde (numeriek, eenheid in 'eenheid'); leeg indien geen numerieke waarde."
+          },
+          {
+            "name": "eenheid",
+            "type": "string",
+            "description": "Eenheid van de waarde (bijv. jaar, weken, dagen, % van de koopsom, moment, regeling)."
+          },
+          {
+            "name": "tekst",
+            "type": "string",
+            "description": "Samenvattende tekst van de waarde zoals de site die toont."
+          },
+          {
+            "name": "bron_url",
+            "type": "string",
+            "description": "URL van de primaire bron."
+          },
+          {
+            "name": "bron_citaat",
+            "type": "string",
+            "description": "Letterlijk citaat uit de primaire bron."
+          },
+          {
+            "name": "bron_gelezen",
+            "type": "date",
+            "description": "Datum (ISO) waarop de primaire bron is gelezen."
+          },
+          {
+            "name": "bevestiging_url",
+            "type": "string",
+            "description": "URL('s) van aanvullende bevestigende bron(nen); meerdere gescheiden door ' | '."
+          },
+          {
+            "name": "bevestiging_citaat",
+            "type": "string",
+            "description": "Letterlijk(e) citaat/citaten uit de bevestigende bron(nen); gescheiden door ' | '."
+          },
+          {
+            "name": "bevestiging_gelezen",
+            "type": "date",
+            "description": "Leesdatum(s) van de bevestigende bron(nen); gescheiden door ' | '."
+          },
+          {
+            "name": "waarde",
+            "type": "string",
+            "description": "Alleen gevuld bij datapunten zonder numerieke waarde: tekstuele waarde (bijv. 'bij aflevering')."
+          },
+          {
+            "name": "opmerking",
+            "type": "string",
+            "description": "Toelichting bij het datapunt (indien aanwezig)."
+          },
+          {
+            "name": "merk",
+            "type": "string",
+            "description": "Merk of (bij regels) 'Wet'; leeg als niet van toepassing."
+          }
+        ]
+      }
+    },
+    {
+      "name": "keuken-garantie-index-json",
+      "path": "data/keuken-garantie-index.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "title": "Keuken-garantie-index Nederland 2026 (origineel JSON)",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "name": "keuken-garantie-index",
+      "path": "data/keuken-garantie-index.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Keuken-garantie-index Nederland 2026 - datapunten",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stabiele sleutel van het datapunt."
+          },
+          {
+            "name": "categorie",
+            "type": "string",
+            "description": "Soort datapunt zoals in het bronbestand (bijv. merk, norm, regel, afwijking, wet, annulering, betaalmoment, zekerheid, aanbieder; per index verschillend)."
+          },
+          {
+            "name": "merk",
+            "type": "string",
+            "description": "Merk of (bij regels) 'Wet'; leeg als niet van toepassing."
+          },
+          {
+            "name": "onderwerp",
+            "type": "string",
+            "description": "Waar het cijfer over gaat."
+          },
+          {
+            "name": "waarde_min",
+            "type": "integer",
+            "description": "Ondergrens van de waarde (numeriek, eenheid in 'eenheid'); leeg indien geen numerieke waarde."
+          },
+          {
+            "name": "waarde_max",
+            "type": "integer",
+            "description": "Bovengrens van de waarde (numeriek, eenheid in 'eenheid'); leeg indien geen numerieke waarde."
+          },
+          {
+            "name": "eenheid",
+            "type": "string",
+            "description": "Eenheid van de waarde (bijv. jaar, weken, dagen, % van de koopsom, moment, regeling)."
+          },
+          {
+            "name": "tekst",
+            "type": "string",
+            "description": "Samenvattende tekst van de waarde zoals de site die toont."
+          },
+          {
+            "name": "opmerking",
+            "type": "string",
+            "description": "Toelichting bij het datapunt (indien aanwezig)."
+          },
+          {
+            "name": "bevestiging_url",
+            "type": "string",
+            "description": "URL('s) van aanvullende bevestigende bron(nen); meerdere gescheiden door ' | '."
+          },
+          {
+            "name": "bevestiging_citaat",
+            "type": "string",
+            "description": "Letterlijk(e) citaat/citaten uit de bevestigende bron(nen); gescheiden door ' | '."
+          },
+          {
+            "name": "bevestiging_gelezen",
+            "type": "date",
+            "description": "Leesdatum(s) van de bevestigende bron(nen); gescheiden door ' | '."
+          },
+          {
+            "name": "bron_url",
+            "type": "string",
+            "description": "URL van de primaire bron."
+          },
+          {
+            "name": "bron_citaat",
+            "type": "string",
+            "description": "Letterlijk citaat uit de primaire bron."
+          },
+          {
+            "name": "bron_gelezen",
+            "type": "date",
+            "description": "Datum (ISO) waarop de primaire bron is gelezen."
+          },
+          {
+            "name": "waarde_waarde",
+            "type": "string",
+            "description": "Leeg veld (in het bronbestand een null-waarde bij 'geen vaste wettelijke garantietermijn'); alleen in de garantie-index."
+          }
+        ]
+      }
+    },
+    {
+      "name": "keuken-garantie-index-niet-gepubliceerd",
+      "path": "data/keuken-garantie-index-niet-gepubliceerd.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Keuken-garantie-index Nederland 2026 - nietGepubliceerd",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "merk",
+            "type": "string",
+            "description": "Merk waarvoor de index bewust geen cijfer opneemt (leeg bij segment-rijen)."
+          },
+          {
+            "name": "toelichting",
+            "type": "string",
+            "description": "Reden waarom geen cijfer is opgenomen, zoals de site die geeft."
+          },
+          {
+            "name": "bron_url",
+            "type": "string",
+            "description": "URL van de bron waarop die reden berust."
+          },
+          {
+            "name": "bron_citaat",
+            "type": "string",
+            "description": "Letterlijk citaat uit die bron."
+          },
+          {
+            "name": "bron_gelezen",
+            "type": "date",
+            "description": "Datum (ISO) waarop de bron is gelezen."
+          }
+        ]
+      }
+    },
+    {
+      "name": "keuken-levertijd-index-json",
+      "path": "data/keuken-levertijd-index.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "title": "Keuken-levertijdindex Nederland 2026 (origineel JSON)",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "name": "keuken-levertijd-index",
+      "path": "data/keuken-levertijd-index.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Keuken-levertijdindex Nederland 2026 - datapunten",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stabiele sleutel van het datapunt."
+          },
+          {
+            "name": "categorie",
+            "type": "string",
+            "description": "Soort datapunt zoals in het bronbestand (bijv. merk, norm, regel, afwijking, wet, annulering, betaalmoment, zekerheid, aanbieder; per index verschillend)."
+          },
+          {
+            "name": "merk",
+            "type": "string",
+            "description": "Merk of (bij regels) 'Wet'; leeg als niet van toepassing."
+          },
+          {
+            "name": "onderwerp",
+            "type": "string",
+            "description": "Waar het cijfer over gaat."
+          },
+          {
+            "name": "waarde_min",
+            "type": "integer",
+            "description": "Ondergrens van de waarde (numeriek, eenheid in 'eenheid'); leeg indien geen numerieke waarde."
+          },
+          {
+            "name": "waarde_max",
+            "type": "integer",
+            "description": "Bovengrens van de waarde (numeriek, eenheid in 'eenheid'); leeg indien geen numerieke waarde."
+          },
+          {
+            "name": "eenheid",
+            "type": "string",
+            "description": "Eenheid van de waarde (bijv. jaar, weken, dagen, % van de koopsom, moment, regeling)."
+          },
+          {
+            "name": "tekst",
+            "type": "string",
+            "description": "Samenvattende tekst van de waarde zoals de site die toont."
+          },
+          {
+            "name": "bron_url",
+            "type": "string",
+            "description": "URL van de primaire bron."
+          },
+          {
+            "name": "bron_citaat",
+            "type": "string",
+            "description": "Letterlijk citaat uit de primaire bron."
+          },
+          {
+            "name": "bron_gelezen",
+            "type": "date",
+            "description": "Datum (ISO) waarop de primaire bron is gelezen."
+          },
+          {
+            "name": "opmerking",
+            "type": "string",
+            "description": "Toelichting bij het datapunt (indien aanwezig)."
+          },
+          {
+            "name": "fase",
+            "type": "string",
+            "description": "Fase van het keukentraject (alleen levertijd-index, indien aanwezig)."
+          },
+          {
+            "name": "bevestiging_url",
+            "type": "string",
+            "description": "URL('s) van aanvullende bevestigende bron(nen); meerdere gescheiden door ' | '."
+          },
+          {
+            "name": "bevestiging_citaat",
+            "type": "string",
+            "description": "Letterlijk(e) citaat/citaten uit de bevestigende bron(nen); gescheiden door ' | '."
+          },
+          {
+            "name": "bevestiging_gelezen",
+            "type": "date",
+            "description": "Leesdatum(s) van de bevestigende bron(nen); gescheiden door ' | '."
+          }
+        ]
+      }
+    },
+    {
+      "name": "keuken-levertijd-index-niet-gepubliceerd",
+      "path": "data/keuken-levertijd-index-niet-gepubliceerd.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Keuken-levertijdindex Nederland 2026 - nietGepubliceerd",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "merk",
+            "type": "string",
+            "description": "Merk waarvoor de index bewust geen cijfer opneemt (leeg bij segment-rijen)."
+          },
+          {
+            "name": "toelichting",
+            "type": "string",
+            "description": "Reden waarom geen cijfer is opgenomen, zoals de site die geeft."
+          },
+          {
+            "name": "bron_url",
+            "type": "string",
+            "description": "URL van de bron waarop die reden berust."
+          },
+          {
+            "name": "bron_citaat",
+            "type": "string",
+            "description": "Letterlijk citaat uit die bron."
+          },
+          {
+            "name": "bron_gelezen",
+            "type": "date",
+            "description": "Datum (ISO) waarop de bron is gelezen."
+          },
+          {
+            "name": "segment",
+            "type": "string",
+            "description": "Segment (alleen levertijd-index, indien aanwezig)."
+          },
+          {
+            "name": "onderwerp",
+            "type": "string",
+            "description": "Onderwerp (alleen levertijd-index, indien aanwezig)."
+          }
+        ]
+      }
+    },
+    {
+      "name": "keukenzaken-register-json",
+      "path": "data/keukenzaken-register.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "title": "Keukenzaken-register Nederland (origineel JSON)",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "name": "keukenzaken-register",
+      "path": "data/keukenzaken-register.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Keukenzaken-register Nederland - zaken",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "naam",
+            "type": "string",
+            "description": "Naam van de keukenzaak."
+          },
+          {
+            "name": "plaats",
+            "type": "string",
+            "description": "Plaats."
+          },
+          {
+            "name": "postcode",
+            "type": "string",
+            "description": "Postcode (zoals in bron)."
+          },
+          {
+            "name": "keten",
+            "type": "string",
+            "description": "Keten waartoe de zaak behoort (394 van 1040 rijen gevuld)."
+          },
+          {
+            "name": "groep",
+            "type": "string",
+            "description": "Moedergroep van de keten (212 van 1040 rijen gevuld)."
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "description": "Vestigingspagina op keukeninbeeld.nl."
+          },
+          {
+            "name": "peildatum",
+            "type": "date",
+            "description": "Datum (ISO) van de gegevens voor deze rij."
+          },
+          {
+            "name": "bron",
+            "type": "string",
+            "description": "OpenStreetMap-node-URL (gevuld bij 566 rijen); (c) OpenStreetMap-bijdragers, ODbL."
+          }
+        ]
+      }
+    },
+    {
+      "name": "keukenzaken-register-groepen",
+      "path": "data/keukenzaken-register-groepen.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Keukenzaken-register Nederland - groepen",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "slug",
+            "type": "string",
+            "description": "Sleutel van de groep."
+          },
+          {
+            "name": "naam",
+            "type": "string",
+            "description": "Naam van de groep."
+          },
+          {
+            "name": "bron_url",
+            "type": "string",
+            "description": "URL van de bron voor de groepsindeling."
+          },
+          {
+            "name": "bron_uitgever",
+            "type": "string",
+            "description": "Uitgever van die bron."
+          },
+          {
+            "name": "bron_citaat",
+            "type": "string",
+            "description": "Letterlijk citaat."
+          },
+          {
+            "name": "bron_gecontroleerd",
+            "type": "date",
+            "description": "Datum (ISO) van controle."
+          }
+        ]
+      }
+    }
+  ]
+}

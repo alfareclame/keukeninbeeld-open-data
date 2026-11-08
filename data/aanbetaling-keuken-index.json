@@ -1,0 +1,272 @@
+{
+  "naam": "Aanbetaling-keukenindex Nederland",
+  "editie": 2026,
+  "beschrijving": "Maximale aanbetalingspercentages, betaalmomenten en annuleringsregels bij de aankoop van een keuken volgens de CBW-erkend voorwaarden, de ACM en aanbieders, met per cijfer de bron-URL en een letterlijk citaat. Samengesteld door Keuken in Beeld; geen verkoopdata.",
+  "bron": "Keuken in Beeld",
+  "bronUrl": "https://keukeninbeeld.nl/aanbetaling-keuken-index",
+  "uitgever": {
+    "naam": "Keuken in Beeld",
+    "onderdeelVan": "Aanloop AI",
+    "kvk": "88606902"
+  },
+  "licentie": "https://creativecommons.org/licenses/by/4.0/",
+  "citatie": "Aanbetaling-keukenindex Nederland 2026, Keuken in Beeld (keukeninbeeld.nl)",
+  "bijgewerkt": "2026-10-07",
+  "taal": "nl-NL",
+  "land": "NL",
+  "grondslag": "Percentages zijn maxima uit branchevoorwaarden en wet of gepubliceerde werkwijzen van aanbieders; ze zijn geen verkoopdata. Het bedrag dat u betaalt staat in uw eigen offerte.",
+  "aantalDatapunten": 15,
+  "datapunten": [
+    {
+      "id": "cbw-keuken-max",
+      "categorie": "norm",
+      "onderwerp": "Maximale aanbetaling voor keukens (CBW-erkend)",
+      "waarde": {
+        "min": 15,
+        "max": 15
+      },
+      "eenheid": "% van de koopsom",
+      "tekst": "15%",
+      "bron": {
+        "url": "https://cbw-erkend.nl/wp-content/uploads/2026/06/av2022_wonen.pdf",
+        "citaat": "De maximale aanbetaling voor consumenten is 25%, behalve bij onderstaande producten waarvoor 15% het maximum is: a. keukens/badkamers/sanitaire artikelen en/of onderdelen daarvan, en/of daarmee verband houdende werkzaamheden;",
+        "gelezen": "2026-10-13"
+      },
+      "bevestiging": [
+        {
+          "url": "https://cbw-erkend.nl/actualiteiten/7-tips-voor-het-kopen-van-een-keuken/",
+          "citaat": "CBW-erkende keukenzaken mogen maximaal 15% van de kosten als aanbetaling vragen.",
+          "gelezen": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": "cbw-overig-max",
+      "categorie": "norm",
+      "onderwerp": "Maximale aanbetaling voor overige woonproducten (CBW-erkend)",
+      "waarde": {
+        "min": 25,
+        "max": 25
+      },
+      "eenheid": "% van de koopsom",
+      "tekst": "25%",
+      "bron": {
+        "url": "https://cbw-erkend.nl/actualiteiten/ik-heb-een-keuken-meubel-vloer-gordijn-gekocht-mag-ik-annuleren/",
+        "citaat": "Voor overige woonproducten mag een ondernemer maximaal 25% aanbetaling vragen.",
+        "gelezen": "2026-10-07"
+      }
+    },
+    {
+      "id": "wet-helft",
+      "categorie": "wet",
+      "onderwerp": "Wettelijke bovengrens voor vooruitbetaling als enige betalingsconditie",
+      "waarde": {
+        "min": 50,
+        "max": 50
+      },
+      "eenheid": "% van de koopsom",
+      "tekst": "de helft (50%)",
+      "bron": {
+        "url": "https://cbw-erkend.nl/wp-content/uploads/2026/06/av2022_wonen.pdf",
+        "citaat": "Een andere betalingsconditie afspreken mag, maar het is wettelijk verboden om een consument vooruitbetaling van meer dan de helft van de koopsom als enige betalingsconditie aan te bieden.",
+        "gelezen": "2026-10-13"
+      },
+      "bevestiging": [
+        {
+          "url": "https://consument.acm.nl/thema/keuken-kopen",
+          "citaat": "De aanbetaling mag dat niet meer zijn dan de helft van het aankoopbedrag.",
+          "gelezen": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": "cbw-betaling-bij-aflevering",
+      "categorie": "betaalmoment",
+      "onderwerp": "Algemene betalingsconditie bij koop",
+      "waarde": "bij aflevering",
+      "eenheid": "moment",
+      "tekst": "bij aflevering",
+      "bron": {
+        "url": "https://cbw-erkend.nl/wp-content/uploads/2026/06/av2022_wonen.pdf",
+        "citaat": "De algemene betalingsconditie bij koop en verkoop is betaling bij aflevering (contant of pinbetaling), ook als er aanneming van werk (diensten) in de overeenkomst is begrepen.",
+        "gelezen": "2026-10-13"
+      }
+    },
+    {
+      "id": "cbw-restbetaling",
+      "categorie": "betaalmoment",
+      "onderwerp": "Restbetaling na de aanbetaling",
+      "waarde": "op de dag van (af)levering, montagekosten inbegrepen",
+      "eenheid": "moment",
+      "tekst": "op de dag van levering, montage inbegrepen",
+      "bron": {
+        "url": "https://www.cbw-erkend.nl/veelgestelde-vragen/wonen/betalingen",
+        "citaat": "Betaling van het restantbedrag moet op de dag dat de (af)levering van het product plaatsvindt zijn voltooid. Montagekosten zijn hierbij inbegrepen.",
+        "gelezen": "2026-10-07"
+      }
+    },
+    {
+      "id": "cbw-factuurtermijn",
+      "categorie": "betaalmoment",
+      "onderwerp": "Betaaltermijn van een (deel)factuur",
+      "waarde": {
+        "min": 14,
+        "max": 14
+      },
+      "eenheid": "dagen na ontvangst",
+      "tekst": "uiterlijk 14 dagen na ontvangst",
+      "bron": {
+        "url": "https://cbw-erkend.nl/wp-content/uploads/2026/06/av2022_wonen.pdf",
+        "citaat": "Betaling van een factuur of deelfactuur vindt plaats uiterlijk 14 dagen na ontvangst, tenzij anders afgesproken.",
+        "gelezen": "2026-10-13"
+      }
+    },
+    {
+      "id": "cbw-annulering-keuken",
+      "categorie": "annulering",
+      "onderwerp": "Annuleren van een keuken binnen 2 dagen na de koop",
+      "waarde": {
+        "min": 5,
+        "max": 5
+      },
+      "eenheid": "% van de koopsom",
+      "tekst": "5% van de koopsom, minimaal € 500",
+      "opmerking": "Geldt bij schriftelijk annuleren binnen 2 dagen, beginnend de dag na het sluiten van de koop; niet bij een showroom- of B-keuzemodel, tenzij anders is afgesproken.",
+      "bron": {
+        "url": "https://cbw-erkend.nl/wp-content/uploads/2026/06/av2022_wonen.pdf",
+        "citaat": "Bij de koop van een keuken kan een consument binnen 2 dagen, beginnend de dag na het sluiten van de koop, schriftelijk annuleren tegen een sterk gereduceerd percentage van 5% van de koopsom met een minimum van € 500.",
+        "gelezen": "2026-10-13"
+      }
+    },
+    {
+      "id": "cbw-schade-annulering",
+      "categorie": "annulering",
+      "onderwerp": "Schade van de ondernemer bij annulering voor levering (algemeen)",
+      "waarde": {
+        "min": 30,
+        "max": null
+      },
+      "eenheid": "% van de koopsom",
+      "tekst": "meer dan 30% van de koopsom",
+      "bron": {
+        "url": "https://cbw-erkend.nl/wp-content/uploads/2026/06/av2022_wonen.pdf",
+        "citaat": "In de praktijk blijkt de schade van ondernemers meer dan 30% van de koopsom te zijn als er nog niet geleverd is en (aanzienlijk) hoger als er al onherroepelijk is ingekocht.",
+        "gelezen": "2026-10-13"
+      }
+    },
+    {
+      "id": "cbw-faillissement-regeling",
+      "categorie": "zekerheid",
+      "onderwerp": "Aanbetaling bij faillissement van de winkel",
+      "waarde": "vervangende overeenkomst, geen geld terug",
+      "eenheid": "regeling",
+      "tekst": "vervangende overeenkomst, geen terugbetaling",
+      "bron": {
+        "url": "https://cbw-erkend.nl/wp-content/uploads/2026/06/av2022_wonen.pdf",
+        "citaat": "Deze regeling houdt in dat de consument een vervangende overeenkomst kan sluiten met een andere CBW-erkende woonwinkel. De aanbetaling wordt op de prijs in mindering gebracht door en voor rekening van deze CBW-erkende woonwinkel. Er wordt geen geld terugbetaald.",
+        "gelezen": "2026-10-13"
+      }
+    },
+    {
+      "id": "cbw-verrekening-max",
+      "categorie": "zekerheid",
+      "onderwerp": "Maximaal verrekenbaar bedrag bij een vervangende overeenkomst (keuken)",
+      "waarde": {
+        "min": 15,
+        "max": 15
+      },
+      "eenheid": "% van de oorspronkelijke prijs",
+      "tekst": "maximaal 15%",
+      "bron": {
+        "url": "https://cbw-erkend.nl/wp-content/uploads/2026/06/av2022_wonen.pdf",
+        "citaat": "De aanbetaling van de consument wordt van de nieuwe prijs afgetrokken maar niet meer dan 25 of 15% van de oorspronkelijke prijs en niet meer dan 25 of 15% van de nieuwe prijs als die lager is dan de oorspronkelijke prijs",
+        "gelezen": "2026-10-13"
+      }
+    },
+    {
+      "id": "cbw-beroep-termijn",
+      "categorie": "zekerheid",
+      "onderwerp": "Termijn om een beroep op de aanbetalingsregeling te doen",
+      "waarde": {
+        "min": 6,
+        "max": 6
+      },
+      "eenheid": "maanden na uitspraak faillissement",
+      "tekst": "uiterlijk 6 maanden na het faillissement",
+      "bron": {
+        "url": "https://cbw-erkend.nl/wp-content/uploads/2026/06/av2022_wonen.pdf",
+        "citaat": "Dit beroep moet uiterlijk 3 maanden nadat de curator het onder lid 1 b bedoelde bewijs heeft verstrekt, maar in ieder geval uiterlijk 6 maanden na uitspraak van faillissement/surseance/wettelijke schuldsanering bij SG CBW ontvangen zijn.",
+        "gelezen": "2026-10-13"
+      }
+    },
+    {
+      "id": "bruynzeel-aanbetaling",
+      "categorie": "aanbieder",
+      "merk": "Bruynzeel",
+      "onderwerp": "Aanbetaling bij Bruynzeel Keukens",
+      "waarde": {
+        "min": 0,
+        "max": 0
+      },
+      "eenheid": "% van de koopsom",
+      "tekst": "geen aanbetaling",
+      "bron": {
+        "url": "https://www.bruynzeelkeukens.nl/over-ons/proces",
+        "citaat": "Aanbetalen niet nodig",
+        "gelezen": "2026-10-07"
+      }
+    },
+    {
+      "id": "bruynzeel-betaling",
+      "categorie": "aanbieder",
+      "merk": "Bruynzeel",
+      "onderwerp": "Betaalmoment bij Bruynzeel Keukens",
+      "waarde": {
+        "min": 2,
+        "max": 2
+      },
+      "eenheid": "dagen vóór levering",
+      "tekst": "uiterlijk 2 dagen vóór levering",
+      "bron": {
+        "url": "https://www.bruynzeelkeukens.nl/meest-gestelde-vragen",
+        "citaat": "De betaling dient uiterlijk twee dagen vóór levering van de keuken op onze rekening te staan.",
+        "gelezen": "2026-10-07"
+      }
+    },
+    {
+      "id": "bulthaup-termijnen",
+      "categorie": "aanbieder",
+      "merk": "bulthaup",
+      "onderwerp": "Betaalschema bij een bulthaup-verkooppartner (Duitsland)",
+      "waarde": {
+        "min": 3,
+        "max": 3
+      },
+      "eenheid": "termijnen",
+      "tekst": "3 termijnen: bij opdracht, 2 weken voor levering, na montage",
+      "opmerking": "Vermeld op de pagina van een bulthaup-verkooppartner, gehost op bulthaup.com; geen percentages genoemd.",
+      "bron": {
+        "url": "https://bulthaup.com/de/partner/heidelberg/bulthaup-heidelberg/",
+        "citaat": "Sie leisten nach Auftragserteilung eine erste Anzahlung, zwei Wochen vor Lieferung der Küche die Zweite und nach Montage Ihrer Küche erfolgt dann Ihre Schlusszahlung.",
+        "gelezen": "2026-10-07"
+      }
+    },
+    {
+      "id": "acm-volledige-vooruitbetaling",
+      "categorie": "afwijking",
+      "onderwerp": "Volledige betaling vóór levering bij CBW-leden (ACM-besluit)",
+      "waarde": {
+        "min": 5,
+        "max": 12
+      },
+      "eenheid": "dagen vóór levering",
+      "tekst": "volledige koopsom 12 tot 5 dagen vóór levering",
+      "opmerking": "ACM-besluit van 19 november 2009 (boete wegens deze werkwijze); bij betaling van de volledige koopsom is de consument bij faillissement 85% van de betaalde koopsom kwijt.",
+      "bron": {
+        "url": "https://www.acm.nl/nl/node/6952",
+        "citaat": "Zij vragen namelijk betaling van de volledige koopsom 12 tot 5 dagen voor de levering van een keuken",
+        "gelezen": "2026-10-07"
+      }
+    }
+  ]
+}
